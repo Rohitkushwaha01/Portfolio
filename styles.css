@@ -59,7 +59,8 @@ span {
 }
 
 .about-container,
-.skills-container {
+.skills-container,
+.project-container {
   margin: auto;
   width: 80%;
 }
@@ -82,6 +83,55 @@ ul li {
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   width: 150px;
   text-align: center;
+}
+
+h2::after{
+  content: '';
+  background-color: white;
+}
+
+.item{
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid rgb(228, 45, 207);
+  border-radius: 5px;
+  width: 40%;
+}
+
+.item ul li{
+  margin-left: 80px;
+font-size: 1rem;
+}
+
+.item ul {
+  padding-left: 0px;
+}
+
+h4{
+  font-size: 1.2rem !important;
+}
+
+.btn-links{
+  text-align: end;
+}
+
+button{
+  border-radius: 10px !important;
+  padding: 10px;
+  width: 100px;
+}
+
+button:hover{
+  background-color: black;
+}
+
+button:active{
+  position: 8px;
+}
+
+button a {
+  text-decoration: none;
+  color: rgb(228, 45, 207);
 }
 
 .footer {
