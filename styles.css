@@ -5,6 +5,10 @@ body {
   font-family: "Roboto" !important;
 }
 
+.name{
+  font-size: 2rem;
+}
+
 img {
   border-radius: 50%;
 }
@@ -12,7 +16,7 @@ img {
 span {
   color: rgb(228, 45, 207);
   font-family: 'Signika Negative', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 ul li {
