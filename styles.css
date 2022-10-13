@@ -46,6 +46,7 @@ h4 {
   font-size: 1.2rem !important;
 }
 
+
 #about {
   background-color: black;
 }
@@ -67,8 +68,17 @@ h4 {
   color: white;
 }
 
-.box a:hover {
+.box a:hover,:visited {
   color: rgb(228, 45, 207);
+}
+
+.info a{
+  text-decoration: none;
+}
+
+.info a:hover{
+  text-decoration: underline;
+  color: white;
 }
 
 .dark-bg{
