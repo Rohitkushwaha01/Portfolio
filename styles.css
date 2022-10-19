@@ -56,6 +56,7 @@ h4 {
 
 .info a{
   text-decoration: none;
+  color: rgb(228, 45, 207);
 }
 
 .info a:hover{
@@ -70,8 +71,6 @@ h4 {
 .box a:hover{
   color: rgb(228, 45, 207);
 }
-
-
 
 .dark-bg{
   background-color: black;
