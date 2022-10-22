@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500&display=swap");
 
 body {
   font-family: "Roboto" !important;
 }
 
-.name{
+.name {
   font-size: 2rem;
 }
 
@@ -15,7 +15,7 @@ img {
 
 span {
   color: rgb(228, 45, 207);
-  font-family: 'Signika Negative', sans-serif;
+  font-family: "Signika Negative", sans-serif;
   font-size: 1.7rem;
 }
 
@@ -50,16 +50,16 @@ h4 {
   font-size: 1.3rem;
 }
 
-.item p{
+.item p {
   font-size: 1.1rem;
 }
 
-.info a{
+.info a {
   text-decoration: none;
   color: rgb(228, 45, 207);
 }
 
-.info a:hover{
+.info a:hover {
   text-decoration: underline;
   color: white;
 }
@@ -68,11 +68,11 @@ h4 {
   color: rgb(255, 255, 255);
 }
 
-.box a:hover{
+.box a:hover {
   color: rgb(228, 45, 207);
 }
 
-.dark-bg{
+.dark-bg {
   background-color: black;
   width: 100%;
 }
@@ -83,11 +83,11 @@ h4 {
 }
 
 /* section */
-.section{
+.section {
   transition: transform 1s, opacity 1s;
 }
 
-.section--hidden{
+.section--hidden {
   opacity: 0;
   transform: translateY(8rem);
 }
@@ -96,11 +96,11 @@ h4 {
   margin-left: 2rem;
 } */
 
-.ham-bg{
+.ham-bg {
   width: 55px;
 }
 
-.ham{
+.ham {
   color: white;
   background-color: white;
   outline: 1px solid black;
@@ -134,7 +134,7 @@ h4 {
   height: 400px;
 }
 
-.project-img{
+.project-img {
   width: 100%;
 }
 
@@ -157,13 +157,14 @@ h4 {
   padding: 3rem !important;
 }
 
-.project-container{
+.project-container {
   background-color: black;
 }
 
 .flex-box {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -175,6 +176,20 @@ h4 {
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   width: 150px;
   text-align: center;
+  /*  */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 163px;
+}
+
+.fa-font-margin{
+  font-size: 77px;
+  margin-bottom: 20px;
+}
+
+.box p{
+  font-size: 23px;
 }
 
 .item {
@@ -206,7 +221,6 @@ h4 {
   }
 }
 
-
 @media screen and (max-width: 850px) {
   .image-rohit {
     width: 300px;
@@ -222,7 +236,10 @@ h4 {
   .box {
     padding: 10px;
     margin: 13px;
-    width: 108px;
+    width: 118px;
+  }
+  .box p{
+    font-size: 18px;
   }
 }
 
@@ -257,7 +274,7 @@ h4 {
   .skills-container {
     padding: 1rem !important;
   }
-  .project-container h1{
+  .project-container h1 {
     padding: 1rem 0rem 0rem 1rem;
   }
 }
