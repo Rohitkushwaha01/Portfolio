@@ -179,6 +179,10 @@ h4 {
   height: 163px;
 }
 
+.imp-box{
+  justify-content: center !important;
+}
+
 .fa-font-margin{
   font-size: 77px;
   margin-bottom: 20px;
@@ -218,14 +222,14 @@ h4 {
 }
 
 @media screen and (max-width: 850px) {
-  .image-rohit {
+  .digital-image{
     width: 300px;
     height: 300px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .image-rohit {
+  .digital-image {
     width: 250px;
     height: 270px;
   }
